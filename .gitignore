@@ -1,0 +1,69 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+*.pyc
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Internal documentation and notes
+docs/internal/
+notes/
+TODO.md
+PLANNING.md
+
+# Data cache and downloads
+data/cache/
+data/downloads/
+*.cache
+*.pkl
+*.pickle
+
+# Test data
+test_results/
+coverage/
+.pytest_cache/
+htmlcov/
+
+# Logs
+*.log
+logs/
+server.log
+server.pid
+
+# API keys (extra safety)
+*_key.txt
+*_keys.json
+secrets.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Testing
+.coverage
+.tox/
