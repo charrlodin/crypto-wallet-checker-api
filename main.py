@@ -141,6 +141,13 @@ async def root():
     }
 
 
+# RapidAPI ping endpoint
+@app.get("/ping")
+async def ping():
+    """Ping endpoint for RapidAPI health checks"""
+    return {"status": "ok", "message": "pong"}
+
+
 # Main endpoint: Check wallet
 @app.post("/wallet/check", response_model=WalletCheckResponse)
 async def check_wallet(request: WalletCheckRequest):
